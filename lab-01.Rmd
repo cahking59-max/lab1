@@ -67,7 +67,7 @@ visitors %>% summarise_all(class)
 
 ## Question 3
 
-_Which attraction had the most number of visitors in 2022?_
+_Which attraction had the most number of visitors in 2022?_ The Crown estate, windsor Great Park
 
 ```{r Q3}
 visitors %>% arrange(desc(n_2022))
@@ -101,7 +101,7 @@ visitors %>% filter(n_2022== 565772)
 
 ### Exercise e.
 
-_How many attraction had more than 1 million visitors in 2022?_
+_How many attraction had more than 1 million visitors in 2022?_ 22
 
 
 
